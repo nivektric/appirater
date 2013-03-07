@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.resources         = '*.lproj'
   s.requires_arc      = true
   s.frameworks        = 'CFNetwork', 'SystemConfiguration'
-  s.weak_framework    = 'StoreKit'
+  s.weak_frameworks   = 'StoreKit'
   s.license           = { :type => 'MIT', :text => 'Copyright 2012. Arash Payan. This library is distributed under the terms of the MIT/X11.' }
 end
